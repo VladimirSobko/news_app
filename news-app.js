@@ -11,7 +11,7 @@
 		const choiceCategories = document.querySelector(".choice-categories");
 		const btn = document.querySelector("#btn-search");
 
-		//events 
+		//events for button 
 		btn.addEventListener("click", (event)=>{
 			if(event && searchNews.value === ""){
 				event.preventDefault();
