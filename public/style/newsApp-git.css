@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background: #007bff !important;
+}
+.header-app{
+	font-family: 'Roboto Slab', serif;
+}
+h2 {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	font-family: 'Roboto Slab', serif;
+}
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+.news-label{
+	font-family: 'Roboto Slab', serif;
+}
+#search-id{
+	margin-top: 1%;
+  width: 97%;
+  background: #6b747ca1;
+  color: #007bff;
+}
+label {
+	font-family: 'Roboto Slab', serif;
+	font-size: x-large;
+}
+select{
+	width: 70%;
+}
+#btn-search {
+  margin-top: 2%;
+  background-color: #007bff;
+  color: white;
+  
+}
+#btn-search:hover {
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+.app-form{
+  width: 60%;
+  padding: 15px;
+	margin: 3%;
+	background: #343a40;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5%;
+  color: #007bff !important;
+}
+.news-container{
+	font-size: large;
+	display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.card{
+	margin: 3%;
+  padding: 1px;
+  background-color: #343a40 !important ;
+  color: white;
+}
+h3 {
+	text-align: center;
+}
+
+.categoies-p{
+  margin-top: 2%;
+} 
+.form-container {
+  width: 50% !important;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#id-elbrusnews {
+  color: #007bff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.weatherBlog {
+  background: #343a40;
+  color: white;
+  margin-top: 1% !important ;
+  padding: 5% !important;
+  text-align: center !important;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+  transition: background-color 1s;
+  border: 2px solid white;
+}
+.weatherBlogSun {
+  border-radius: 70%;
+  background-color: #b9cb28;
+  color: #343a40;
+  font-size: bold;
+  padding-top: 10px;
+  border: none;
+}
+select {
+  background-color: #6b747ca1 !important;
+}
+.card-img-top {
+  padding: 5%;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:    white;
+}
+h5 {
+  padding: 3%;
+  color: white !important;
+}
+.card-text {
+  padding: 3%;
+}
+span {
+  color: white;
+}
+#wrap-for-donald {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ margin-top: 5%;
+}
+#donald-img {
+width: 50%;
+border-radius: 8%;
+box-shadow: 0 0 10px white;
+}
+#nav-mobile {
+  display: flex !important ;
+  flex-direction: row !important ;
+  width: 30% !important;
+  font-size: larger;
+}
+li {
+  padding: 3%;
+  list-style: none;
+}
+.footer-copyright {
+  background-color: #343a40;
+}
+.wrapper-start {
+  height: 100%;
+}
+#start-label {
+  color: #007bff;
+  font-size: larger !important;
+}
+.header-start {
+  background: #343a40;
+  color: white;
+}
+.moneyDiv {
+  color: aliceblue;
+  width: 20%;
+  background-color:  #343a40;
+  margin-top: 1% !important;
+  padding: 4% !important;
+  margin-left: 1% !important;
+  border-radius: 5%;
+  border: 2px solid white;
+  outline: 5px solid transparent;
+
+}
+.moneyDiv:hover {
+  outline: 5px solid white;
+  outline-offset: 5px;
+}
+
+
+
+
